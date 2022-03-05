@@ -1,6 +1,10 @@
-* POST:
-1. Tao post moi -> luu post vao firebase
-2. Tai Home.js dispatch action getPost ( lay posts tu firebase)
+* CHỨC NĂNG:
+1. Đăng nhập bằng Google, FaceBook
+2. Upload ảnh để tạo bài post
+3. Xem ảnh trước khi tạo bài post
+4. Thêm bình luận vào bài post
+
+
 
 
 * * BUG:
