@@ -1,0 +1,36 @@
+.account {
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+
+    &__info {
+        align-items: center;
+
+        .avatar {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            overflow: hidden;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-right: 10px;
+        }
+
+        h4 {
+            font-size: 15px;
+            font-weight: 600;
+            &:hover {
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    span {
+        font-size: 12px;
+        font-weight: 500;
+        color: #1ea1f7;
+        cursor: pointer;
+    }
+}

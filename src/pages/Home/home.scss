@@ -1,0 +1,21 @@
+.home {
+    width: 100%;
+    background: white;
+
+    &__content {
+        width: 100%;
+        padding-top: 30px;
+        margin-top: 60px;
+    }
+
+    &__left {
+        width: 65%;
+    }
+    
+    &__right {
+        width: 35%;
+        padding-left: 40px;
+    }
+}
+
+
